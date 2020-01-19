@@ -1,0 +1,25 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "deployment": "^0.2.3",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiiaKonovalenko/hackaton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaKonovalenko/hackaton/issues"
+  },
+  "homepage": "https://github.com/AnastasiiaKonovalenko/hackaton#readme"
+}

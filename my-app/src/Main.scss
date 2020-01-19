@@ -1,0 +1,51 @@
+
+$day_width: 60px;
+$day_height: 20px;
+$horizontal_indent: 1px;
+$vertical_indent: 1px;
+body {
+  background-color: rgb(170, 162, 162);
+ 
+}
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30px*6+$horizontal_indent*6;
+}
+.celebrety {
+  color: red;
+}
+.calendar {
+  background-color: rgb(36, 35, 35);
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.day {
+  padding-left: 14px;
+  color: rgb(223, 215, 215);
+  width: 30px;
+  height: 20px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.day:hover {
+  color: rgb(170, 162, 162);
+}
+.year {
+  display: grid;
+  grid-template-columns: repeat(6,200px);
+  justify-content: center;
+}
+.nameMonth {
+  color: rgb(223, 215, 215);
+  font-weight: bold;
+}
+
+.clip {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: rgb(223, 215, 215);
+}
+@import  'app';

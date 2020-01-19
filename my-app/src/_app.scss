@@ -1,0 +1,20 @@
+$days: (
+  "Mon": 0,
+  "Tue": 1,
+  "Wed": 2,
+  "Thu": 3,
+  "Fri": 4,
+  "Sat": 5,
+  "Sun": 6
+);
+
+$day_width: 30px;
+$day_height: 20px;
+$horizontal_indent: 1px;
+$vertical_indent: 1px;
+
+@each $day, $num in $days {
+  .month_#{$day}  #{$day}:first-child {
+    margin-left: #{$num * ($day_width + $horizontal_indent)};
+  }
+}
