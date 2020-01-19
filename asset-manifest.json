@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//hackaton.git/static/css/main.bd661d22.chunk.css",
+    "main.js": "//hackaton.git/static/js/main.c778ea1d.chunk.js",
+    "main.js.map": "//hackaton.git/static/js/main.c778ea1d.chunk.js.map",
+    "runtime~main.js": "//hackaton.git/static/js/runtime~main.e68dab4c.js",
+    "runtime~main.js.map": "//hackaton.git/static/js/runtime~main.e68dab4c.js.map",
+    "static/js/2.d29b3332.chunk.js": "//hackaton.git/static/js/2.d29b3332.chunk.js",
+    "static/js/2.d29b3332.chunk.js.map": "//hackaton.git/static/js/2.d29b3332.chunk.js.map",
+    "index.html": "//hackaton.git/index.html",
+    "precache-manifest.a289dc0eb4ac42acfbae22e3c28a79e0.js": "//hackaton.git/precache-manifest.a289dc0eb4ac42acfbae22e3c28a79e0.js",
+    "service-worker.js": "//hackaton.git/service-worker.js",
+    "static/css/main.bd661d22.chunk.css.map": "//hackaton.git/static/css/main.bd661d22.chunk.css.map"
+  }
+}
