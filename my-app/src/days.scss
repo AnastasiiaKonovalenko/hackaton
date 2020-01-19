@@ -1,0 +1,42 @@
+@import "var";
+$days: (
+  "mon": 0,
+  "tue": 1,
+  "wed": 2,
+  "thu": 3,
+  "fri": 4,
+  "sat": 5,
+  "sun": 6
+);
+
+.day {
+  font-family: "Old Standard TT", serif;
+  width: $day_width;
+  height: $day_height;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  visibility: hidden;
+  transition: ease $day_transition_duration;
+  transition-property: all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: pink;
+    transform: translateY(-20px);
+  }
+}
+
+@for $i from 1 through 31 {
+  .calendar-#{$i} .calendar__day:nth-child(-n+#{$i}) {
+    visibility: visible;
+  }
+}
+
+@each $day, $num in $days {
+  .calendar-#{$day} .calendar__day:first-child {
+    margin-left: #{$num * ($day_width + $horizontal_indent)};
+  }
+}

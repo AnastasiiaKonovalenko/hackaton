@@ -1,15 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
+import DateDropdown from './components/dateDropdown/DateDropdown';
+import './App.css';
+import MonthArr from './monthArray';
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-      hello
-
-    </div>
+    <DateDropdown />
   );
-}
-
+};
 export default App;
